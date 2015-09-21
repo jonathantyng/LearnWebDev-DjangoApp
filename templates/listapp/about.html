@@ -1,0 +1,19 @@
+{% extends 'listapp/base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block active_about %}class="active"{% endblock %}
+
+{% block body_block %}
+<div class="well well-lg">
+  <h2>This website is developed with Python and Django.</h2>
+  <h2>Created by Jonathan Ng.</h2><br>
+  Features:
+  <ul>
+    <li>User Authentication and Permissions</li>
+    <li>Database of various programming tutorials</li>
+    <li>Forms to add new tutorials and categories</li>
+    <li>Cookies to track visits</li>
+  </ul>
+</div>
+{% endblock %}
